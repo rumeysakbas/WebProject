@@ -8,7 +8,7 @@ namespace WebProject.Models
     {
         [Key]
         public int CustomerID { get; set; }
-
+        //dkjsnc
         [Required(ErrorMessage = "Lütfen adınızı giriniz.")]
         [Display(Name = "First Name - Ad")]
         public string FirstName { get; set; }
